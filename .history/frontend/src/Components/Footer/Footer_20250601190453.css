@@ -1,0 +1,128 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: rgba(44, 51, 66, 1);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Top Section: Logo and Description */
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer_logo img {
+  width: 80px;
+  height: auto;
+}
+
+.footer_logo p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  background: linear-gradient(to right, rgba(199, 116, 57, 1), #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-description {
+  font-size: 14px;
+  color: #ddd;
+}
+
+/* Middle Section: Centered Links */
+.footer-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer-links li {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-links li:hover {
+  color: #ffa500;
+}
+
+/* Bottom Section: Social Icons and Copyright */
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  max-width: 1200px;
+  font-size: 13px;
+}
+
+.footer-social-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-icons-container img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-icons-container span {
+  font-size: 12px;
+}
+
+.footer-icons-container:hover {
+  color: #ff5722;
+}
+
+.footer-bottom hr {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 2px;
+  background: #c7c7c7;
+}

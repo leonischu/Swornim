@@ -1,0 +1,78 @@
+/* Testimonial Carousel Container */
+.testimonial-carousel-container {
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  background: #1a1a1a; /* Dark background for the carousel */
+  padding: 20px 0;
+}
+
+/* Each Slide */
+.testimonial-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+/* Background Image */
+.testimonial-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5); /* Darkens the background image */
+  z-index: -1;
+}
+
+/* Overlay Content */
+.testimonial-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  gap: 20px;
+}
+
+/* Speech Bubble */
+.testimonial-cloud {
+  max-width: 600px;
+  background: white;
+  color: black;
+  padding: 20px;
+  border-radius: 20px;
+  position: relative;
+  font-size: 1.1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-cloud::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+/* Client Name */
+.testimonial-client-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Client Image */
+.testimonial-client-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}

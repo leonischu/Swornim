@@ -1,0 +1,139 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; /* Increased gap for better spacing */
+  padding: 20px 0;
+  background-color: rgba(44, 51, 66, 1);
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Top section with logo and links */
+.footer-top {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.footer_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer_logo img {
+  width: 100px;
+  height: auto;
+  align-items: flex-start;
+  
+}
+
+.footer_logo p {
+  background: linear-gradient(to right, rgba(199, 116, 57, 1), #FFD700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.footer-links li {
+  cursor: pointer;
+  transition: color 0.3s;
+  
+}
+
+.footer-links li:hover {
+  color: #ffa500;
+}
+
+/* Social Icons Section */
+.footer-social-section {
+  width: 90%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.footer-social-icon {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-icons-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-icons-container img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-icons-container span {
+  font-size: 12px;
+}
+
+.footer-icons-container:hover {
+  color: #ff5722;
+}
+
+/* Contact Info Section */
+.footer-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  font-size: 14px;
+}
+
+.footer-contact p {
+  margin: 0;
+}
+
+/* Copyright Section */
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer-copyright hr {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  height: 2px;
+  background: #c7c7c7;
+}

@@ -1,0 +1,101 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+.loginsignup {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none; /* No background color */
+}
+
+.loginsignup-container {
+  width: 400px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.loginsignup-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 16px;
+}
+
+.input-container input {
+  width: calc(100% - 40px);
+  padding: 10px 10px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  color: #333;
+}
+
+.input-container input:focus {
+  border-color: #555;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background: #007bff;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.loginsignup-login {
+  margin-top: 20px;
+  color: #555;
+  font-size: 14px;
+}
+
+.loginsignup-login span {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loginsignup-login span:hover {
+  text-decoration: underline;
+}
+
+.loginsignup-agree {
+  margin-top: 20px;
+  text-align: left;
+  color: #555;
+  font-size: 12px;
+}
+
+.loginsignup-agree input {
+  margin-right: 10px;
+}
