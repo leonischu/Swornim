@@ -106,6 +106,10 @@
   transform: translateY(-8px);
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
 }
+.professional{
+    background-color: rgba(44, 51, 66, 1);
+
+}
 
 .professional-header {
   position: relative;

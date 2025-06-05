@@ -31,7 +31,7 @@ const events = [
     venue: "Nepal Academy Hall, Kathmandu",
     price: "NPR 800",
     category: "Comedy",
-    image: "/images/events/standup-comedy.jpg",
+    image: "/images/events/comedy-night.jpeg",
     rating: 4.6,
     attendees: 300,
     description: "Get ready to laugh out loud with Nepal's finest comedians in an evening full of humor.",

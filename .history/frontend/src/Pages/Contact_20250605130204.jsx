@@ -11,7 +11,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone Numbers",
-    details: ["+977-01-4441234", "+977-9841234567", "24/7 Support Available"],
+    details: ["+977 9860125698", "+977-9841234567", "24/7 Support Available"],
   },
   {
     icon: Mail,
@@ -38,7 +38,7 @@ const teamMembers = [
     id: 2,
     name: "Priya Maharjan",
     position: "Creative Director",
-    image: "/images/team/priya-maharjan.jpeg",
+    image: "/images/team/priya-maharjan.jpg",
     experience: "12+ years",
     specialty: "Design & Decoration",
   },
@@ -54,7 +54,7 @@ const teamMembers = [
     id: 4,
     name: "Sita Gurung",
     position: "Client Relations",
-    image: "/images/team/sita-gurung.jpeg",
+    image: "/images/team/sita-gurung.jpg",
     experience: "8+ years",
     specialty: "Customer Service",
   },

@@ -54,7 +54,7 @@ const teamMembers = [
     id: 4,
     name: "Sita Gurung",
     position: "Client Relations",
-    image: "/images/team/sita-gurung.jpeg",
+    image: "/images/team/sita-gurung.jpg",
     experience: "8+ years",
     specialty: "Customer Service",
   },

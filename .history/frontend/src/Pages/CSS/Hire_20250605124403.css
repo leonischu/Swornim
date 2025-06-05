@@ -110,7 +110,7 @@
 .professional-header {
   position: relative;
   padding: 2rem 2rem 1rem;
-  background: linear-gradient(135deg, #f8f9ff 0%, #e8f0ff 100%);
+  background: rgba(44, 51, 66, 1);
 }
 
 .professional-avatar {
